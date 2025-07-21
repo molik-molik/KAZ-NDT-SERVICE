@@ -1,0 +1,322 @@
+/* Основные стили */
+header, #logo, #nav-bar {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+header {
+    font-family: Jost, sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: #88D444;
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    padding: 15px 0px;
+    letter-spacing: 0.2em; /* 10% от ширины буквы */
+
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+}
+
+#logo img {
+    width: 150px;
+    height: auto;
+    margin-right: 50px;
+}
+
+/* Десктопное меню */
+#nav-bar ul {
+    font-family: Jost, sans-serif;
+    font-weight: 600;
+    width: auto;
+    display: flex;
+    gap: 5vw;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 4vw;
+    padding: 0;
+}
+
+#nav-bar ul li:last-child a {
+    color: #4E977A;
+    padding: 10px 20px;
+}
+
+#nav-bar li {
+    font-size: 19px;
+    color: #222222;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #222222;
+    transition: color 0.3s;
+}
+
+#nav-bar a:hover {
+    color: #4E977A;
+}
+
+#language-selector {
+    padding: 12px 15px;
+    font-size: 16px;
+    color: #4E977A;
+    background-color: #88D444;
+    border: 2px solid #2EAF7D;
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    display: block;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#language-selector-mobile {
+    padding: 12px 15px;
+    font-size: 16px;
+    color: #4E977A;
+    background-color: white;
+    border: 2px solid #4E977A;
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    margin: 0 10px 0 15px;
+    display: block;
+}
+
+/* Бургер-меню */
+/* Мобильное меню - обновленная версия */
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: -100%; /* Начинаем за пределами экрана справа */
+    width: 30%;
+    max-width: 320px;
+    height: 100vh;
+    background-color: #FFFFFF;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    padding: 80px 10px 20px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: auto;
+}
+
+.mobile-menu.active {
+    right: 0; /* Выезжает на экран */
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mobile-menu li:first-child a {
+    color: #4E977A !important; /* Зеленый цвет для "Главной" */
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.mobile-menu a:hover {
+    color: #4E977A;
+    background-color: rgba(78, 151, 122, 0.1);
+    transform: translateX(5px);
+}
+
+/* Оверлей при открытом меню */
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.menu-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Анимация бургера - улучшенная */
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    margin-right: 25px;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.burger-menu span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #4E977A;
+    margin: 5px 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: center;
+}
+
+.burger-menu.active {
+    position: fixed;
+    right: 0;
+    top: 25px;
+}
+
+.burger-menu.active span {
+    background-color: #4E977A;
+}
+
+.burger-menu.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+    width: 30px;
+}
+
+.burger-menu.active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+.burger-menu.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+    width: 30px;
+}
+
+.mobile-language {
+    display: none;
+}
+
+/* Дополнительные корректировки для маленьких экранов */
+@media (max-width: 480px) {
+    .mobile-menu {
+        width: 60%;
+    }
+    
+    .burger-menu {
+        margin-right: 15px;
+    }
+    
+    #logo img {
+        width: 110px;
+        margin-left: 10px;
+    }
+    
+    .mobile-menu a {
+        font-size: 16px;
+    }
+} 
+
+/* Бургер-меню появляется на 920px */
+@media (max-width: 920px) {
+    #nav-bar ul {
+        display: none; /* Скрываем обычное меню */
+    }
+    
+    #nav-bar .language {
+        display: none; /* Скрываем языковой селектор */
+    }
+    
+    .burger-menu {
+        display: block; /* Показываем бургер */
+        margin-right: 20px;
+    }
+    
+    .mobile-menu {
+        display: block; /* Активируем мобильное меню */
+    }
+
+    .mobile-language {
+        display: block;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    #language-selector {
+        margin: 0;
+        padding: 8px 12px;
+        font-size: 14px;
+        border: 2px solid #4E977A;
+        color: #4E977A;
+        background-color: white;
+        border-radius: 4px;
+  }
+    
+    /* Корректировка логотипа */
+    #logo img {
+        width: 130px;
+        margin-left: 15px;
+    }
+    
+    /* Запрещаем скролл при открытом меню */
+    body.menu-open {
+        overflow: hidden;
+    }
+}
+
+/* Обновленные медиа-запросы */
+@media (max-width: 1024px) {
+    #nav-bar ul {
+        gap: 25px;
+        margin-right: 20px;
+    }
+    
+    #language-selector {
+        margin-right: 20px;
+        padding: 10px 35px 10px 15px;
+        font-size: 15px;
+    }
+}

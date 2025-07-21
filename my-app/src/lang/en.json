@@ -1,0 +1,157 @@
+{
+    "header": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About",
+        "personnel": "Personnel",
+        "contacts": "Contacts"
+    },
+    "hero": {
+        "companyName": "KAZ-NDT-SERVICE —<br/> your reliable partner in quality control<br/> ",
+        "desc1": "Certified NDT services at TCO and KPO facilities",
+        "desc2": "Non-destructive testing of welds for key projects in Kazakhstan's oil and gas sector",
+        "desc3": "Full range of NDT services, licenses for working with IIC, experience at Tengiz and Karachaganak",
+        "desc4": "Comprehensive NDT services according to ISO/IEC 17025, ISO 9001, ISO 14001 standards",
+        "aboutButton": "About Us"
+    },
+    "info": {
+        "about1": "LLP 'KAZ-NDT-SERVICE' is accredited by the National Accreditation Center according to the GOST ISO/IEC 17025-2019 standard 'General requirements for the competence of testing and calibration laboratories', and also holds the following certificates:",
+        "line1": " certificate ST RK ISO 9001-2016 'Quality management systems. Requirements';",
+        "line2": " certificate ST RK OHSAS 18001-2008 'Occupational health and safety management systems. Requirements';",
+        "line3": " certificate ST RK ISO 14001-2016 'Environmental management systems. Requirements and guidance for use'.",
+        "about2": "The company was founded in 2014 and is based in Atyrau.<br>We are a 100% Kazakhstani company.<br>The company has all necessary licenses for working with sources of ionizing radiation, transportation and handling of radioactive materials and equipment containing radioactive materials.<br>Currently, we operate at the Tengiz and Karachaganak fields.<br>We have passed pre-qualification and have access to work on projects of LLP 'Tengizchevroil' (TCO) and 'Karachaganak Petroleum Operating b.v.' (KPO)."
+    },
+    "footer": {
+        "logoAlt": "KAZ-NDT-SERVICE Logo",
+        "description": "Since 2014, we have been providing reliable non-destructive testing at oil and gas facilities. We operate according to international standards of quality, safety, and environmental friendliness. Our competencies are confirmed by accreditations and experience on the largest projects in the country.",
+        "workingHoursTitle": "Working Hours:",
+        "contactsTitle": "Contacts",
+        "phone": "Phone:<br/>+7 (705) 412 00 76<br/>",
+        "copy": "© 2024 LLP KAZ-NDT-SERVICE. All rights reserved.",
+        "address": "Atyrau, Balikshi microdistrict, Kalmakhanov Street, 22",
+        "mon": "Mon - 9:00 - 18:00",
+        "tue": "Tue - 9:00 - 18:00",
+        "wed": "Wed - 9:00 - 18:00",
+        "thu": "Thu - 9:00 - 18:00",
+        "fri": "Fri - 9:00 - 18:00",
+        "sat": "Sat - Closed",
+        "sun": "Sun - Closed"
+    },
+    "about": {
+    "title": "About Us",
+    "point1": "LLP 'KAZ-NDT-SERVICE' provides non-destructive testing services for welds on projects in the oil and gas industry.",
+    "point2": "The company was founded in 2014 and is based in Atyrau. We are a 100% Kazakhstani company.",
+    "point3": "The company has all necessary licenses for working with sources of ionizing radiation (gamma and X-ray), transportation and handling of radioactive materials and equipment containing radioactive materials.",
+    "point4": "Currently, we operate at the Tengiz and Karachaganak fields. We have passed pre-qualification and have access to work on projects of LLP 'Tengizchevroil' (TCO) and 'Karachaganak Petroleum Operating b.v.' (KPO).",
+    "expertiseTitle": "Types of Activities:",
+    "expertiseDescription": "LLP 'KAZ-NDT-SERVICE' is accredited by the National Accreditation Center according to the GOST ISO/IEC 17025-2019 standard 'General requirements for the competence of testing and calibration laboratories', and also holds certificates:",
+    "expertisePoint1": "certificate ST RK ISO 9001-2016 'Quality management systems. Requirements';",
+    "expertisePoint2": "certificate ST RK OHSAS 18001-2008 'Occupational health and safety management systems. Requirements';",
+    "expertisePoint3": "certificate ST RK ISO 14001-2016 'Environmental management systems. Requirements and guidance for use'.",
+    "equipmentTitle": "Production and Technical Equipment:",
+    "equipmentDescription1": "There is an in-house laboratory accredited by the National Accreditation Center (NCA) as a mobile testing laboratory for technical diagnostics and non-destructive testing (MTL TD and NDT).",
+    "equipmentDescription2": "The laboratories are equipped with storage facilities for sources of ionizing radiation and equipment necessary for the following types of testing:",
+    "equipmentPoint1": "Hardness testing (HT);",
+    "equipmentPoint2": "Magnetic particle inspection (MT);",
+    "equipmentPoint3": "Penetrant testing (PT);",
+    "equipmentPoint4": "Radiographic and X-ray inspection (RT);",
+    "equipmentPoint5": "X-ray inspection (XRay);",
+    "equipmentPoint6": "Ultrasonic testing (UT);",
+    "equipmentPoint7": "Ultrasonic thickness measurement (UTT);",
+    "equipmentPoint8": "Visual measurement inspection (VT);",
+    "equipmentPoint9": "Inspection of geometric welded joints (LT, vacuuming).",
+    "labsDescription": "Our laboratories are accredited to conduct testing of:",
+    "labPoint1": "vessels operating under pressure of steam, gas, flammable and toxic liquids;",
+    "labPoint2": "seamless steel pipes for oil refining and petrochemical industries;",
+    "labPoint3": "seamless steel pipes of hot forming;",
+    "labPoint4": "seamless steel pipes of cold forming;",
+    "labPoint5": "seamless stainless steel pipes with hot and cold forming;",
+    "labPoint6": "seamless stainless steel pipes for energy;",
+    "labPoint7": "seamless high-pressure pipes;",
+    "labPoint8": "welded steel pipelines;",
+    "labPoint9": "technological pipelines"
+  },
+  "services": {
+    "title": "Services",
+    "desc1": "LLP 'KAZ-NDT-SERVICE' provides non-destructive testing services for welds on projects in the oil and gas industry.",
+    "desc2": "For field work, there are 2 equipped pickup trucks (Toyota Hilux)",
+    "number": "№",
+    "name": "Name",
+    "equipment": "Type of Equipment",
+    "amount": "Quantity",
+
+    "number1": "1",
+    "name1": "Arina 7",
+    "equipment1": "X-ray machine",
+    "amount1": "2",
+
+    "number2": "2",
+    "name2": "Pamir-300",
+    "equipment2": "X-ray machine",
+    "amount2": "3",
+
+    "number3": "3",
+    "name3": "Mart-200",
+    "equipment3": "X-ray machine",
+    "amount3": "1",
+
+    "number4": "4",
+    "name4": "Mart-250",
+    "equipment4": "X-ray machine",
+    "amount4": "1",
+
+    "number5": "5",
+    "name5": "Raycraft GP 250",
+    "equipment5": "X-ray machine",
+    "amount5": "1",
+
+    "number6": "6",
+    "name6": "Raycraft CD 250",
+    "equipment6": "X-ray machine",
+    "amount6": "1",
+
+    "number7": "7",
+    "name7": "XXG-2505",
+    "equipment7": "X-ray machine",
+    "amount7": "1",
+
+    "number8": "8",
+    "name8": "Gammarid 25M with Iridium 192 source",
+    "equipment8": "Gamma flaw detector",
+    "amount8": "1",
+
+    "number9": "9",
+    "name9": "SENTINE 660",
+    "equipment9": "Gamma flaw detector (rented)",
+    "amount9": "2",
+
+    "number10": "10",
+    "name10": "AGFA M Eco",
+    "equipment10": "Developing machine",
+    "amount10": "1",
+
+    "number11": "11",
+    "name11": "COLENTA INDX 900E",
+    "equipment11": "Developing machine",
+    "amount11": "1",
+
+    "number12": "12",
+    "name12": "KROPUS",
+    "equipment12": "Ultrasound USD-46",
+    "amount12": "1",
+
+    "number13": "13",
+    "name13": "KROPUS",
+    "equipment13": "Ultrasound USD-50",
+    "amount13": "1"
+  },
+  "personnel": {
+    "title": "Personnel",
+    "point1": "The quality of our business and the services we provide is primarily determined by our employees, each of whom is a true specialist and professional.",
+    "point2": "The company adheres to principles aimed at achieving high professional qualifications of employees and ensuring a comfortable working environment.",
+    "point3": "The main advantage of our company is a close-knit team, which has developed friendly relations based on mutual support and assistance.",
+    "point4": "We provide our clients with high-level service, offering excellent cooperation conditions and guaranteeing high-quality and timely fulfillment of assigned tasks.",
+    "point5": "We always maintain friendly relations with our customers, who, having used our services once, often become our regular clients.",
+    "point6": "Our goal is the safety and efficiency of the operation of entrusted facilities."
+  }
+}
