@@ -1,0 +1,2 @@
+# KAZ-NDT-SERVICE
+code for KAZ-NDT-SERVICE website
